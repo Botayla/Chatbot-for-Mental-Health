@@ -64,5 +64,7 @@ Run:
 After running rag_pipeline.py, you can query the system:
 
 `query = "What are the main symptoms of depression?"
+
 response = qa_chain.run(query)
+
 print(response)`
